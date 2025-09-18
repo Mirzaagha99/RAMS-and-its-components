@@ -1,20 +1,8 @@
 # RAMS-and-its-components
 Random Access Memory (RAM) is a type of computer memory that stores data temporarily. When you turn off your computer, the data in RAM disappears, unlike the data on your hard drive, which stays saved. RAM helps your computer run programs and process information faster. This is similar to how the brain’s memory helps us remember things.
 RAMS is composed by the following elements:
-<img width="349" height="140" alt="image" src="https://github.com/user-attachments/assets/7debd3cd-3007-40df-a05b-90a7b96937cf" />
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/7debd3cd-3007-40df-a05b-90a7b96937cf" />
 
-
-+---------------------+ ← Low memory addresses
-|     Code Segment    | → Executable instructions
-+---------------------+
-| Initialized Data    | → Global/static with values
-+---------------------+
-| Uninitialized Data  | → Global/static without values
-+---------------------+
-|        Heap         | → Dynamic memory (grows upward)
-+---------------------+
-|        Stack        | → Function calls (grows downward)
-+---------------------+ ← High memory addresses
 
 1. Stack
 🔹 Purpose:
