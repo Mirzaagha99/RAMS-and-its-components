@@ -24,37 +24,64 @@ RAMS is composed by the following elements:
 
   •	When the function ends, the frame is popped off the stack.
 ________________________________________
+
 2. Heap
-🔹 Purpose:
-Stores dynamically allocated memory, useful for data that needs to persist beyond a function's scope.
-🔹 Logic:
-•	Managed manually (malloc, new, free, delete) or automatically (garbage collection).
-•	No fixed structure; grows as needed.
-•	Slower than stack but more flexible.
-•	Ideal for objects, arrays, and complex data structures.
+
+  🔹 Purpose:
+
+    Stores dynamically allocated memory, useful for data that needs to persist beyond a function's scope.
+
+  🔹 Logic:
+
+    •	Managed manually (malloc, new, free, delete) or automatically (garbage collection).
+
+    •	No fixed structure; grows as needed.
+
+    •	Slower than stack but more flexible.
+
+    •	Ideal for objects, arrays, and complex data structures.
 ________________________________________
 3. Data Segment
+
 🔹 Purpose:
-Holds global and static variables.
+
+  Holds global and static variables.
+
 🔹 Logic:
-•	Divided into: 
-o	Initialized Data Segment: variables with initial values.
-o	Uninitialized Data Segment (BSS): variables without initial values.
-•	Allocated when the program starts and persists until it ends.
+
+    •	Divided into: 
+
+      o	Initialized Data Segment: variables with initial values.
+
+      o	Uninitialized Data Segment (BSS): variables without initial values.
+
+    •	Allocated when the program starts and persists until it ends.
 
 ________________________________________
+
 4. Code Segment (Text Segment)
+
 🔹 Purpose:
-Contains the executable instructions of the program.
+
+    Contains the executable instructions of the program.
+
 🔹 Logic:
-•	Read-only to prevent accidental modification.
-•	Includes compiled machine code that the CPU executes.
+
+    •	Read-only to prevent accidental modification.
+
+    •	Includes compiled machine code that the CPU executes.
 
 ________________________________________
+
 5. Memory-Mapped I/O / Shared Memory
+
 🔹 Purpose:
-Used for hardware communication or inter-process communication.
+
+    Used for hardware communication or inter-process communication.
+
 🔹 Logic:
-•	Some RAM areas are mapped to hardware registers.
-•	Shared memory allows multiple processes to access the same data.
+
+    •	Some RAM areas are mapped to hardware registers.
+
+    •	Shared memory allows multiple processes to access the same data.
 
