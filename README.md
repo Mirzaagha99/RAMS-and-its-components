@@ -8,21 +8,21 @@ RAMS is composed by the following elements:
 
 🔹 Purpose:
 
-Used for function calls, local variables, and return addresses.
+  Used for function calls, local variables, and return addresses.
 
 🔹 Logic:
 
-•	Operates as a LIFO (Last In, First Out) structure.
+  •	Operates as a LIFO (Last In, First Out) structure.
 
-•	Every time a function is called, a stack frame is created containing: 
+  •	Every time a function is called, a stack frame is created containing: 
 
-o	Function parameters
+    o	Function parameters
 
-o	Local variables
+    o	Local variables
 
-o	Return address
+    o	Return address
 
-•	When the function ends, the frame is popped off the stack.
+  •	When the function ends, the frame is popped off the stack.
 ________________________________________
 2. Heap
 🔹 Purpose:
