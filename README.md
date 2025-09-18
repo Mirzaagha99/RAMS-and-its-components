@@ -5,14 +5,23 @@ RAMS is composed by the following elements:
 
 
 1. Stack
+
 🔹 Purpose:
+
 Used for function calls, local variables, and return addresses.
-🔹 Logic:\begin{itemize}
-\item Operates as a LIFO (Last In, First Out) structure.
-\item Every time a function is called, a stack frame is created containing: 
+
+🔹 Logic:
+
+•	Operates as a LIFO (Last In, First Out) structure.
+
+•	Every time a function is called, a stack frame is created containing: 
+
 o	Function parameters
+
 o	Local variables
+
 o	Return address
+
 •	When the function ends, the frame is popped off the stack.
 ________________________________________
 2. Heap
